@@ -50,7 +50,7 @@ export default class App extends Component {
     } else {
       return <Fragment>
         <Header />
-        <Login />
+        <Expanded />
       </Fragment>
     }
   }
