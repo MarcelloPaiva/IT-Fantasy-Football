@@ -1,0 +1,107 @@
+{
+	"testKey": "testVal",
+	"game_key": "371",
+	"league_name": "Cat Stickers Fantasy League",
+	"num_teams": 10,
+	"league_key": "371.l.1075055",
+	"league_id": "1075055",
+	"team_name": "@realCammyTrump",
+	"team_key": "371.l.1075055.t.9",
+	"team_id": "9",
+	"roster": [{
+		"name": "Joe Flacco",
+		"position": "QB",
+		"team": "Bal"
+	}, {
+		"name": "Tyreek Hill",
+		"position": "WR",
+		"team": "KC"
+	}, {
+		"name": "Golden Tate",
+		"position": "WR",
+		"team": "Det"
+	}, {
+		"name": "Corey Davis",
+		"position": "WR",
+		"team": "Ten"
+	}, {
+		"name": "LeSean McCoy",
+		"position": "RB",
+		"team": "Buf"
+	}, {
+		"name": "Frank Gore",
+		"position": "RB",
+		"team": "Mia"
+	}, {
+		"name": "Zach Ertz",
+		"position": "TE",
+		"team": "Phi"
+	}, {
+		"name": "Jason Witten",
+		"position": "TE",
+		"team": "Dal"
+	}, {
+		"name": "Adam Thielen",
+		"position": "WR",
+		"team": "Min"
+	}, {
+		"name": "Ben Roethlisberger",
+		"position": "QB",
+		"team": "Pit"
+	}, {
+		"name": "Greg Olsen",
+		"position": "TE",
+		"team": "Car"
+	}, {
+		"name": "Rex Burkhead",
+		"position": "RB",
+		"team": "NE"
+	}, {
+		"name": "Marqise Lee",
+		"position": "WR",
+		"team": "Jax"
+	}, {
+		"name": "Jordy Nelson",
+		"position": "WR",
+		"team": "Oak"
+	}, {
+		"name": "Doug Martin",
+		"position": "RB",
+		"team": "Oak"
+	}, {
+		"name": "Chris Thompson",
+		"position": "RB",
+		"team": "Was"
+	}, {
+		"name": "Andy Dalton",
+		"position": "QB",
+		"team": "Cin"
+	}, {
+		"name": "Dalvin Cook",
+		"position": "RB",
+		"team": "Min"
+	}, {
+		"name": "Adam Vinatieri",
+		"position": "K",
+		"team": "Ind"
+	}, {
+		"name": "Dustin Hopkins",
+		"position": "K",
+		"team": "Was"
+	}, {
+		"name": "Minnesota",
+		"position": "DEF",
+		"team": "Min"
+	}, {
+		"name": "Jacksonville",
+		"position": "DEF",
+		"team": "Jax"
+	}],
+	"matchup": {
+		"opponent_name": "Breaker of Femurs",
+		"opponent_score": "173.40",
+		"opponent_proj": "130.62",
+		"user_score": "161.40",
+		"user_proj": "138.71"
+	}
+}
