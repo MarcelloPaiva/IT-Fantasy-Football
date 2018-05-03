@@ -3,9 +3,28 @@ import { Grid, AppBar, Toolbar, Typography, IconButton, Button } from 'material-
 import GameCard from './Display/GameCard'
 import Header from './Display/Header'
 import Login from './Display/Login'
-import Error from './Display/Error'
-import Test from './Display/Test'
 import Expanded from './Display/Expanded'
+import '../css/flexboxgrid.min.css';
+
+
+function frontPage(props) {
+  const isLoggedIn = props.isLoggedIn;
+  if (isLoggedIn) {
+    return(
+      <Fragment>
+        <Header />
+        <GameCard />
+      </Fragment>
+    );
+  }else{
+    return(
+      <Fragment>
+        <Header />
+        <Expanded />
+      </Fragment>
+    );
+  }
+}
 
 export default class App extends Component {
   constructor() {
@@ -14,25 +33,6 @@ export default class App extends Component {
       loggedIn: false,
     };
   }
-
-  // function frontPage(props) {
-  //   const isLoggedIn = props.isLoggedIn;
-  //   if (isLoggedIn) {
-  //     return(
-  //       <Fragment>
-  //         <Header />
-  //         <GameCard />
-  //       </Fragment>
-  //     );
-  //   }else{
-  //     return(
-  //       <Fragment>
-  //         <Header />
-  //         <Expanded />
-  //       </Fragment>
-  //     );
-  //   }
-  // }
 
 
   //For some reason, whether 'loggedIn' is false or true it returns the GameCards
@@ -43,12 +43,14 @@ export default class App extends Component {
     if ({isLogged}) {
       return <Fragment>
         <Header />
-        <GameCard />
+        <div>
+          <GameCard />
+        </div>
       </Fragment>
     } else {
       return <Fragment>
         <Header />
-        <Expanded />
+        <Login />
       </Fragment>
     }
   }
